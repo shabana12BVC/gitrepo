@@ -3,10 +3,10 @@ app=Flask(__name__)
 
 @app.route("/")
 def hello_flask():
-    return "merge conflict"
+    return "merge conflict created "
 @app.route("/index")
 def index():
-    pass
+    return render_template("index.html")
     
 
 if __name__=='__main__':
