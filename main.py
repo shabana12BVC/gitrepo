@@ -3,7 +3,7 @@ app=Flask(__name__)
 
 @app.route("/")
 def hello_flask():
-    return "changed for merging"
+    return "merge conflict"
 @app.route("/index")
 def index():
     pass
